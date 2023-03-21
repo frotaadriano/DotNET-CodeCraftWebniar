@@ -28,11 +28,11 @@ If you would like to contribute to this repository, feel free to submit a pull r
 This repository is licensed under the MIT License. See the LICENSE file for more information.
 
 ## References and inspirations
-# Main
+### Main
  - SOLID: https://luby.com.br/desenvolvimento/software/conceitos/o-que-e-solid/#:~:text=Esse%20princ%C3%ADpio%20nos%20diz%20que,que%20a%20classe%20n%C3%A3o%20utilizar%C3%A1.
  - DESIGN PATTERNS: https://www.dofactory.com/net/design-patterns
  - Minimal API: 
-# Others
+### Others
  - Classes Estáticas..............: https://www.macoratti.net/12/01/c_stc1.htm
  - Classes Abstratas..............: https://www.macoratti.net/12/06/c_caip1.htm
  - Virtual .......................: https://www.macoratti.net/18/07/c_virt1.htm
