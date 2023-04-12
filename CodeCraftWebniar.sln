@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicalAspNetWebAPI", "Mi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCraftMinimal", "CodeCraftMinimal\CodeCraftMinimal.csproj", "{DF9DFEC4-039D-4C77-975A-88C7B9B08203}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15196F20-13E2-4658-8F2F-99C59F87C1D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Presentation - CodeCraft.pptx = ..\..\..\..\..\Presentation - CodeCraft.pptx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
