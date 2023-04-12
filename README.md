@@ -29,16 +29,19 @@ This repository is licensed under the MIT License. See the LICENSE file for more
 
 ## References and inspirations
 ### Main
- - SOLID: https://luby.com.br/desenvolvimento/software/conceitos/o-que-e-solid/#:~:text=Esse%20princ%C3%ADpio%20nos%20diz%20que,que%20a%20classe%20n%C3%A3o%20utilizar%C3%A1.
- - DESIGN PATTERNS: https://www.dofactory.com/net/design-patterns
- - Minimal API: 
+ - SOLID.............: https://luby.com.br/desenvolvimento/software/conceitos/o-que-e-solid/#:~:text=Esse%20princ%C3%ADpio%20nos%20diz%20que,que%20a%20classe%20n%C3%A3o%20utilizar%C3%A1.
+ - DESIGN PATTERNS...: https://www.dofactory.com/net/design-patterns
+ - DESIGN PATTERNS...: https://blog.betrybe.com/desenvolvimento-web/design-patterns-tudo-sobre/
+ - Minimal API.......: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-7.0
+ - Minimal API.......: https://www.youtube.com/watch?v=VXy4XzQ-HFA
 ### Others
  - Classes Estáticas..............: https://www.macoratti.net/12/01/c_stc1.htm
  - Classes Abstratas..............: https://www.macoratti.net/12/06/c_caip1.htm
  - Virtual .......................: https://www.macoratti.net/18/07/c_virt1.htm
  - CQRS...........................: https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/
  - Arq. de SW: Estilos e Padrões..: https://medium.com/@marcelomg21/arquitetura-de-software-estilos-e-padr%C3%B5es-de-design-50d62d684ef2
+ - null-safety ou null-checking...: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/nullable-warnings?f1url=%3FappId%3Droslyn%26k%3Dk(CS8618)
 
 
-
+Contact me in	Github/Linkedin: frotaadriano
  
