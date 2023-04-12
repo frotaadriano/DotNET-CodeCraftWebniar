@@ -24,6 +24,11 @@ namespace SOLID.Solution
         public string Email { get; set; }
         #endregion
 
+        public Client(string name)
+        {
+            Name = name;
+        }
+
         #region ==== Methods ====
         public bool IsValid()
         {

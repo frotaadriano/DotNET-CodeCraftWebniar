@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DesignPatterns._02___Estruturais
-{
+{ 
+
     // Define a interface esperada pelo cliente
     interface IClima
     {

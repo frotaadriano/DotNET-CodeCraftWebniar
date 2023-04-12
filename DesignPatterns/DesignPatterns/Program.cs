@@ -1,6 +1,6 @@
 ﻿
 #region Creational - Singleton
-//// Obter a instância única do contador
+// Obter a instância única do contador
 //using DesignPatterns._01___Creational;
 //Counter primeiroContador = Counter.Instance();
 //// Incrementar o contador algumas vezes
@@ -10,9 +10,11 @@
 
 //// Imprimir o valor atual do contador
 //Console.WriteLine("[1] - primeiroContador: " + primeiroContador.GetCount()); // Saída: Contador: 3
+
 //// Decrementar o contador e imprimir o novo valor
 //primeiroContador.Decrement();
 //Console.WriteLine("[2] - primeiroContador: " + primeiroContador.GetCount()); // Saída: Contador: 2
+
 //Counter segundoContador = Counter.Instance();
 //Console.WriteLine("[3] - segundoContador valor:" + primeiroContador.GetCount());
 //primeiroContador.Increment();
@@ -20,7 +22,7 @@
 //Console.WriteLine("[5] - segundoContador: " + primeiroContador.GetCount());
 #endregion
 
-#region Creational - Factory Method  
+//#region Creational - Factory Method  
 using DesignPatterns._01___Creational;
 using DesignPatterns._02___Estruturais;
 using DesignPatterns._03___Comportamental.Command;
@@ -85,20 +87,20 @@ using static DesignPatterns._01___Creational.FactoryMethodVeiculo;
   
  */
 
-#endregion
+//#endregion
 
 #region Estrutural - Adapter
-//// Cria o serviço que fornece informações sobre o tempo
-//ITempo servicoTempo = new ServicoTempo();
+// Cria o serviço que fornece informações sobre o tempo
+ITempo servicoTempo = new ServicoTempo();
 
-//// Cria o adaptador que adapta a interface do serviço de tempo para a interface de clima
-//IClima adaptadorTempo = new AdaptadorTempo(servicoTempo);
+// Cria o adaptador que adapta a interface do serviço de tempo para a interface de clima
+IClima adaptadorTempo = new AdaptadorTempo(servicoTempo);
 
-//// Cria o cliente que espera receber informações sobre o clima
-//Cliente cliente = new Cliente(adaptadorTempo);
+// Cria o cliente que espera receber informações sobre o clima
+Cliente cliente = new Cliente(adaptadorTempo);
 
-//// Exibe as informações sobre o clima para o cliente
-//cliente.ExibirClima();
+// Exibe as informações sobre o clima para o cliente
+cliente.ExibirClima();
 #endregion
 
 #region Comportamental - Command
@@ -121,7 +123,15 @@ control.PressButton();
 control.SetCommand(turnOffCommand);
 control.PressButton();
 
+/*
+interface acessos 
+    
+interface acoes
+    
+*/
+// pessoa : acessos, acoes
 
+// carro  : geral
 #endregion
 
 

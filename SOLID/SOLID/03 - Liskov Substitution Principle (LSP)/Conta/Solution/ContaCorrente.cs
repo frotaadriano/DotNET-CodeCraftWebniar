@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID._03___Liskov_Substitution_Principle__LSP_.Conta.Solution
 {
-    public class ContaCorrente: ContaBancaria
+    public class ContaCorrente : ContaBancaria
     {
         private double _saldo;
         private double _limite;
@@ -40,13 +40,6 @@ namespace SOLID._03___Liskov_Substitution_Principle__LSP_.Conta.Solution
         {
             return _saldo;
         }
-
-        public double Limite
-        {
-            get { return _limite; }
-            set { _limite = value; }
-        }
-
 
     }
 }

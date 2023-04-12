@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID._02___Open_Close.Solution
 {
-    public class PagamentoBoleto:   IPagamentoStrategy
+    public class PagamentoBoleto: IPagamentoStrategy
     {
         public void RealizarPagamento(decimal valor)
         {

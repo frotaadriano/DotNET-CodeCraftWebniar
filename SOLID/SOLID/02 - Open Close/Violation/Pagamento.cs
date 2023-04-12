@@ -21,6 +21,11 @@ namespace SOLID._02___Open_Close.Violation
             {
                 // realiza pagamento via cartão de crédito
             }
+            else if(Tipo == "PIX")
+            {
+
+            }
+
         }
     }
 }

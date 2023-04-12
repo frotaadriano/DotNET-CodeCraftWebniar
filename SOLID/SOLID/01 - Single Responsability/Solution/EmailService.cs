@@ -7,28 +7,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.Solution
 {
-    /*
-     [static]
-        
-        double resultado = Math.Pow(2,3); 
-        
-        A palavra chave static faz com que os métodos da classe Math estejam associados a classe e 
-        não com uma instância particular da classe.
-     
-        Algumas características das classes estáticas:
-
-        1. Uma classe estática não pode ser instanciada;
-        2. Classe estática podem ter somente membros estáticos;
-        3. Um Membro estático da classe pode ser acessado pelo próprio nome da classe;
-        4. Uma Classe estática é sealed. Dessa forma uma classe estática não pode ser herdada;
-        5. Uma Classe estática contém apenas os construtores estáticos;
-        6. Uma Classe estática não pode ter construtores de instância;
-        7. Uma Classe estática só pode ser herdada a partir de objetos da classe;
-        8. Uma Classe estática possui a palavra-chave static como modificador;
-        9. Os Construtores estáticos da classe estática são chamados apenas uma vez;
-        10. Uma Classe estática possui somente construtores privados;
-     
-     */
+    //TODO: 2 static
     public static class EmailService
     {
 

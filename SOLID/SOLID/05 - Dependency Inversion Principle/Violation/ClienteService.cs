@@ -12,8 +12,8 @@ namespace SOLID._05___Dependency_Inversion_Principle.Violation
 
         public string AddClient(Client client)
         {            
-            // Validation
-            if (!client.IsValid())  return "Stop, Invalid Client!";
+            //// Validation
+            //if (!client.IsValid())  return "Stop, Invalid Client!";
 
             // AddClient
             var _clientRepository = new ClientRepository();

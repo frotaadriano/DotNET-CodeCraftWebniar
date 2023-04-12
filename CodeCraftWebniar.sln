@@ -5,11 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID\SOLID.csproj", "{40C376FA-E512-4BCF-9CBB-5B5C7F7E9973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns\DesignPatterns.csproj", "{B6A4A8DF-60D6-4B43-AE75-1C435A6A69A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns\DesignPatterns.csproj", "{B6A4A8DF-60D6-4B43-AE75-1C435A6A69A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicalAspNetWebAPI", "MinimalAPI\ClassicalAspNetWebAPI\ClassicalAspNetWebAPI.csproj", "{69778866-A8B9-44E1-B84F-E055A055A76F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicalAspNetWebAPI", "MinimalAPI\ClassicalAspNetWebAPI\ClassicalAspNetWebAPI.csproj", "{69778866-A8B9-44E1-B84F-E055A055A76F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalAPI", "MinimalAPI\MinimalAPI\MinimalAPI.csproj", "{26C2DE65-E5CB-4333-A249-099BF2C95FBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCraftMinimal", "CodeCraftMinimal\CodeCraftMinimal.csproj", "{DF9DFEC4-039D-4C77-975A-88C7B9B08203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{69778866-A8B9-44E1-B84F-E055A055A76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69778866-A8B9-44E1-B84F-E055A055A76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69778866-A8B9-44E1-B84F-E055A055A76F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26C2DE65-E5CB-4333-A249-099BF2C95FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26C2DE65-E5CB-4333-A249-099BF2C95FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26C2DE65-E5CB-4333-A249-099BF2C95FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26C2DE65-E5CB-4333-A249-099BF2C95FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9DFEC4-039D-4C77-975A-88C7B9B08203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9DFEC4-039D-4C77-975A-88C7B9B08203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9DFEC4-039D-4C77-975A-88C7B9B08203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9DFEC4-039D-4C77-975A-88C7B9B08203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

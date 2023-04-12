@@ -15,10 +15,10 @@ namespace SOLID.Violation
         #region ==== Props ====
 
         public int ClientId { get; set; }
-
+        // nullable warnings
         public string Name { get; set; }
 
-        public string Surname { get; set; }
+        public string? Surname { get; set; }
 
         public bool IsActive { get; set; }
 

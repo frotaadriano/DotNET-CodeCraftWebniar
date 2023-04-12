@@ -17,11 +17,7 @@ var app = builder.Build();
 
 //exemplo 1
 var userList = new User[] { new(1, "Joao"), new(2, "Maria") };
-userList.Append(new(3, "Pedro"));
-
-
-#userList[0].Name = "Joao da Silva";
-#var u = new User();
+  
 
 app.MapGet("users", () => userList);
 
